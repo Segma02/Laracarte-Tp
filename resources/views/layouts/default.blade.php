@@ -19,8 +19,8 @@
     @include('layouts.partials/_nav')
     @yield('content')
     @include('layouts.partials/_footer')
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script src="{{asset('/bootstrap/js/bootstrap.min.js')}}"></script>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="{{asset('/bootstrap/js/bootstrap.min.js')}}"></script>
     @stack('content-js')
 </body>
 </html>

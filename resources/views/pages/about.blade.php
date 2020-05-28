@@ -18,7 +18,7 @@
         <p>More info <a href="https://laramap.com/p/about">here</a>.</p>
         <hr class="my-auto">
 
-        <h2>Which tools and services are used in Laracarte ?</h2>
+        <h2 class="text-justify">Which tools and services are used in Laracarte ?</h2>
         <p>Basically it's built on Laravel &amp; Bootstrap. But there's a bunch service used for email and other sections.</p>
         <ul>
             <li>Laravel</li>

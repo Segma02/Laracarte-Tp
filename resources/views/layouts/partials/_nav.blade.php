@@ -1,10 +1,11 @@
 <nav class="navbar navbar-expand-sm static-top navbar-light bg-light justify-content-between">
-     <a href="{{route('root_path')}}" class="navbar-brand">Laracarte</a>
-        <ul class="nav navbar-nav">  
-          <li class="nav-item active">
+
+        <ul class="nav navbar-nav"> 
+          <li> <a href="{{route('root_path')}}" class="navbar-brand">{{config('app.name')}}</a></li>
+          <li class="{{active_home()}}">
             <a class="nav-link" href="{{route('root_path')}}">Home <span class="sr-only">(page d'acceuil)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="{{active_about()}}">
             <a class="nav-link" href="{{route('about')}}">About</a>
           </li>
           <li class="nav-item">
